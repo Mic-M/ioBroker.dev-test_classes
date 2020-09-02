@@ -1,0 +1,76 @@
+{
+    "common": {
+        "name": "dev-test_classes",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "DEV Test: Classes",
+        "titleLang": {
+            "en": "DEV Test: Classes",
+            "de": "DEV-Test: Klassen",
+            "ru": "DEV Test: классы",
+            "pt": "Teste DEV: Classes",
+            "nl": "DEV-test: klassen",
+            "fr": "Test DEV: Classes",
+            "it": "Test DEV: classi",
+            "es": "Prueba DEV: Clases",
+            "pl": "Test DEV: Klasy",
+            "zh-cn": "DEV测试：类"
+        },
+        "desc": {
+            "en": "Test adapter for Classes - for developers only! Not for production use!",
+            "de": "Testadapter für Klassen - nur für Entwickler! ",
+            "ru": "Тестовый адаптер для классов - только для разработчиков! ",
+            "pt": "Adaptador de teste para classes - apenas para desenvolvedores! ",
+            "nl": "Testadapter voor klassen - alleen voor ontwikkelaars! ",
+            "fr": "Adaptateur de test pour les classes - pour les développeurs uniquement! ",
+            "it": "Adattatore di prova per classi - solo per sviluppatori! ",
+            "es": "Adaptador de prueba para clases, ¡solo para desarrolladores! ",
+            "pl": "Adapter testowy dla klas - tylko dla programistów! ",
+            "zh-cn": "类的测试适配器-仅适用于开发人员！"
+        },
+        "authors": [
+            "Mic-M <iob.micm@gmail.com>"
+        ],
+        "keywords": [
+            "test"
+        ],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "main": "main.js",
+        "icon": "dev-test_classes.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/Mic-M/ioBroker.dev-test_classes/master/admin/dev-test_classes.png",
+        "readme": "https://github.com/Mic-M/ioBroker.dev-test_classes/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "general",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "poll",
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "option1": true,
+        "option2": "42"
+    },
+    "objects": [],
+    "instanceObjects": []
+}
